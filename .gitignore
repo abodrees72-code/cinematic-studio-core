@@ -1,0 +1,56 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / local config
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Unreal Engine generated / heavy local data
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+
+# Blender temporary / backups
+*.blend1
+*.blend2
+*.blend@
+
+# Render / cache outputs
+renders/
+Render/
+cache/
+Cache/
+*.exr
+*.mov
+*.mp4
+
+# Large source assets stay outside normal Git unless explicitly approved
+*.abc
+*.fbx
+*.usd
+*.usda
+*.usdc
+*.vdb
+*.wav
+*.flac
+*.tif
+*.tiff
+*.hdr
+*.exr
+
+# Marketplace / licensed asset payloads must never be committed by default
+MarketplaceAssets/
+FabAssets/
+LicensedAssets/
